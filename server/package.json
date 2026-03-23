@@ -5,7 +5,8 @@
   "main": "index.js",
   "type": "commonjs",
   "scripts": {
-    "start": "tsx server.ts",
+    "build": "npx tsc",
+    "start": "node dist/server.js",
     "server": "nodemon --exec tsx server.ts",
     "build": "tsc"
   },
